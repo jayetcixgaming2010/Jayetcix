@@ -1,0 +1,345 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Haha Gamer Hub",
+         Animation = "Haha Gamer"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=111516258919041",
+       Size = {30, 30},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script"})
+     local Tab2o = MakeTab({Name = "Mod game"})
+     local Tab3o = MakeTab({Name = "Script need key"})
+     local Tab4o = MakeTab({Name = "Kaitun"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Teddy hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
+  end
+  })
+     AddButton(Tab1o, {
+     Name = "Blue X V2",
+    Callback = function()
+_G.Team = "Pirates"
+_G.FixLag = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates";
+  Translator = true;
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Rubu V3",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Cuttay Hub Premium",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/mizuharasup/cutaypremium/refs/heads/main/premium.lua'))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Zis hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb3"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Mukuro hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://auth.quartyz.com/scripts/Loader.lua"))()
+	end
+	})
+    AddButton(Tab1o, {
+     Name = "BapRed hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Kncrypt",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/BloxFruit.lua"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "W_azure",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Zenith hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/ZenithHub/refs/heads/main/Loader"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Quantum onyx hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://quantumonyx.xyz/MainHub/BetaTesting.lua"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Volcano hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Trẩu hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauTX"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Min hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinBV"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Astral hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Gangteng hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5c3af437cd698d64379cf75cacb9281.lua"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Xero hub",
+    Callback = function()
+	  getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Flow hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Overflow/refs/heads/main/Main.lua"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Speed hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Raito hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+    })
+     AddButton(Tab2o, {
+     Name = "Fix Lag",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+    })
+     AddButton(Tab3o, {
+     Name = "Thunder Z",
+    Callback = function()
+	  _G.Webhook = ""
+_G.MetodeTeleport = "Tween" --"Tween" or "Instant"
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/BloxFruit/FindFruit.lua')))()
+  end
+  })
+   AddButton(Tab3o, {
+     Name = "Strix hub",
+    Callback = function()
+	  loadstring(game:HttpGet"https://scriptroblox.onrender.com/strix")()
+  end
+  })
+   AddButton(Tab3o, {
+     Name = "Auto bounty Xero hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/pisovn/OisiRoblox1/refs/heads/main/AutoBountyXero"))()
+  end
+  })
+   AddButton(Tab3o, {
+     Name = "Hoho hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })
+    AddButton(Tab4o, {
+     Name = "Kaitun Simple hub",
+    Callback = function()
+	  getgenv().simple_settings = {
+    ["MASTERY"] = { -- Settings related to leveling up weapon or skill mastery
+        ["ACTIVE"] = true, -- Enable or disable mastery leveling (true = enabled, false = disabled)
+        ["METHOD"] = "Half", -- Method for gaining mastery, "Half"[350] or "Full"[600]
+    },
+ 
+    ["OBJECTIVE"] = { -- Goals for farming and unlocking features
+        ["GODHUMAN"] = false, -- Automatically unlock the "Godhuman" fighting style
+        ["RACE-CONFIGURE"] = {
+            ["RACE"] = {"Human", "Skypiea", "Fishman", "Mink"}, -- List -- "Human", "Skypiea", "Fishman", "Mink"
+            ["RACE-LOCK"] = true, -- Automatically change the character race if not in the list
+            ["RACE-V3"] = false, -- Automatically upgrade character race to V3 if possible Human, Mink, (Fishman, Ghoul, Cyborg) soon
+        },
+        ["FRAGMENT"] = 0, -- Limit number of fragments to collect
+ 
+        -- SWORD
+        ["CANVANDER"] = false,
+        ["BUDDY-SWORD"] = false,
+        ["CURSED-DUAL-KATANA"] = false,
+        ["SHARK-ANCHOR"] = false,
+ 
+        --GUN
+        ["ACIDUM-RIFLE"] = false,
+        ["VENOM-BOW"] = false,
+        ["SOUL-GUITAR"] = false,
+ 
+        -- AURA
+        ["COLOR-HAKI"] = {"Pure Red","Winter Sky","Snow White"}, -- Aura color to craft
+    },
+ 
+    ["FRUITPURCHASE"] = true, -- Automatically purchase fruits based on priority list
+    ["PRIORITYFRUIT"] = { -- List of preferred fruits to purchase or eat in order of priority
+        [1] = "Dragon-Dragon",
+        [2] = "Dough-Dough",
+        [3] = "Flame-Flame",
+        [4] = "Rumble-Rumble",
+        [5] = "Human-Human: Buddha",
+        [6] = "Dark-Dark",
+    },
+ 
+    ["FPSCAP"] = 30, -- Limit the frame rate to optimize performance
+    ["LOWTEXTURE"] = true-- Reduce graphic quality for better performance
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+  end
+  })
+   AddButton(Tab4o, {
+     Name = "Kaitun Ronyx Premium",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
+  end
+  })
+  AddButton(Tab4o, {
+     Name = "Kaitun Rise Hub",
+    Callback = function()
+	  _G.Config = {
+
+    ["Melee"] = {
+
+        ["Superhuman"] = true,
+
+        ["Death Step"] = true,
+
+        ["Sharkman Karate"] = true,
+
+        ["Electric Claw"] = true,
+
+        ["Dragon Talon"] = true,
+
+        ["Godhuman"] = true
+
+    },
+
+    ["Sword"] = {
+
+        ["Saber"] = true,
+
+        ["Rengoku"] = true,
+
+        ["Canvander"] = true,
+
+        ["Buddy Sword"] = true,
+
+        ["Yama"] = true,
+
+        ["Tushita"] = true,
+
+        ["True Triple Katana"] = true,
+
+        ["Cursed Dual Katana"] = true
+
+    },
+
+    ["Gun"] = {
+
+        ["Kabucha"] = true,
+
+        ["Acidum Rifle"] = true,
+
+        ["Serpent Bow"] = true
+
+    },
+
+    ["Mastery"] = {
+
+        ["Sword"] = true
+
+    },
+
+    ["Setting"] = {
+
+        ["Enabled"] = true,
+
+        ["Bring Mob [Less Lag]"] = true,
+
+        ["Hop Server"] = true,
+
+        ["Reduce Lag"] = true,
+
+        ["Notifycation Remove"] = true,
+
+        ["Hop When Player Nearby"] = {
+
+            ["Enabled"] = true,
+
+            ["Radius"] = 350
+
+        }
+
+    }
+
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/KaitunBeta.RiseEvo"))();
+  end
+  })
